@@ -1,4 +1,5 @@
-N-Cen-Dainamix
+`~ADMIN~` `N-Cen-Dainamix` `Dainamix~Team`
 ==============
 
-Perl Scrpit
+I'm N-Cen-Dainamix Free Perl Script
+Facebook: http://facebook.com/ncendainamix
