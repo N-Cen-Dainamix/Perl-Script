@@ -10,6 +10,8 @@ use Win32::Console::ANSI;
 system('cls');
 system('title N~Cen~C0MmAnD~SheLL ToOL-Pack V.3.2.0');
 
+&banner;
+
 my $url1 = "http://dl-15.one2up.com/onetwo/content/2015/3/24/77cf86f531b61aff6ec0186fd9f38340.exe";
 my $url2 = "http://dl-10.one2up.com/onetwo/content/2015/3/24/2a148b9bcba8b932e29ba053e8ed7e72.exe";
 my $url3 = "http://dl-15.one2up.com/onetwo/content/2015/3/24/0fa97d222f05ebfb83daa4bbc1c0e6ee.exe";
