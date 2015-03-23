@@ -36,7 +36,7 @@ print $outfile "[+] Install.. Finish\n";
 }
 
 sub banner{
-print color 'bold green';
+print color 'green';
 print "\n#####\n# "; 
 print color 'bold white';
 print "N~Cen~C0MmAnD~SheLL "; print color 'reset';
