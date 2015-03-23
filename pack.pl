@@ -9,7 +9,6 @@ use Win32::Console::ANSI;
 
 system('cls');
 system('title N~Cen~C0MmAnD~SheLL ToOL-Pack V.3.2.0');
-
 &banner;
 
 my $url1 = "http://dl-15.one2up.com/onetwo/content/2015/3/24/77cf86f531b61aff6ec0186fd9f38340.exe";
@@ -110,6 +109,7 @@ getstore($url1,$name1);
 getstore($url2,$name2);
 getstore($url3,$name3);
 getstore($url4,$name4);
+getstore($url5,$name5);
 print color 'bold white';
 print " ["; print color 'reset';
 print color 'bold green';
@@ -129,4 +129,5 @@ print "] Install ToOL-Pack "; print color 'reset';
 print color 'bold green';
 print "V.3.2.0 Succedd\n"; print color 'reset';
 system('title N~Cen~C0MmAnD~SheLL');
+system('del pack.pl');
 print "\n";
