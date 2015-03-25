@@ -8,24 +8,16 @@ use Term::ANSIColor;
 use Win32::Console::ANSI;
 
 system('cls');
-system('title N~Cen~C0MmAnD~SheLL ToOL-Pack V.3.2.0');
+system('title N~Cen~C0MmAnD~SheLL Edition Pack V.3.2.0');
 &banner;
 
-my $url1 = "http://dl-15.one2up.com/onetwo/content/2015/3/24/77cf86f531b61aff6ec0186fd9f38340.exe";
-my $url2 = "http://dl-10.one2up.com/onetwo/content/2015/3/24/2a148b9bcba8b932e29ba053e8ed7e72.exe";
-my $url3 = "http://dl-15.one2up.com/onetwo/content/2015/3/24/0fa97d222f05ebfb83daa4bbc1c0e6ee.exe";
-my $url4 = "http://dl-4.one2up.com/onetwo/content/2015/3/24/e91b3d08cfcb19ea8d50d6184e245836.exe";
-my $url5 = "http://dl-18.one2up.com/onetwo/content/2015/3/24/039a83b58c4006a000ee5c0ab1001cb5.exe";
-my $name1 = "crack.exe";
-my $name2 = "version.exe";
-my $name3 = "help-tool.exe";
-my $name4 = "wnet.exe";
-my $name5 = "update.exe";
+my $url1 = "http://dl-18.one2up.com/onetwo/content/2014/10/6/4d89a5fa7ca275d9fe854c1466f35164.exe";
+my $name1 = "aircrack.exe";
 my $time0 = localtime();
 
 sub log1{
 open my $outfile, '>>', 'C:\ncencommandshell-logfile\update-logfile.log' or die $!;
-print $outfile "-- Update ToOL-Pack V.3.2.0 at: $time0\n"; 
+print $outfile "-- Update Edition Pack V.3.2.0 at: $time0\n"; 
 print $outfile "[+] Download Packets..\n";
 }
 
@@ -41,7 +33,7 @@ print "\n#####\n# ";
 print color 'bold white';
 print "N~Cen~C0MmAnD~SheLL "; print color 'reset';
 print color 'bold green';
-print "ToOL-Pack \n"; print color 'reset';
+print "Edition Pack \n"; print color 'reset';
 print color 'green';
 print "# "; print color 'reset';
 print color 'bold white';
@@ -106,10 +98,6 @@ print "...\n"; print color 'reset';
 sleep(5);
 &log1;
 getstore($url1,$name1);
-getstore($url2,$name2);
-getstore($url3,$name3);
-getstore($url4,$name4);
-getstore($url5,$name5);
 print color 'bold white';
 print " ["; print color 'reset';
 print color 'bold green';
@@ -125,9 +113,8 @@ print " ["; print color 'reset';
 print color 'bold green';
 print "+"; print color 'reset';
 print color 'bold white';
-print "] Install ToOL-Pack "; print color 'reset';
+print "] Edition Pack "; print color 'reset';
 print color 'bold green';
 print "V.3.2.0 Succedd\n"; print color 'reset';
 system('title N~Cen~C0MmAnD~SheLL');
-system('del pack.pl');
 print "\n";
