@@ -26,7 +26,7 @@ my $name4 = "cygz.dll";
 my $name5 = "cygwin1.dll";
 my $name6 = "cyggcc_s-1.dll";
 my $name7 = "cygcrypto-1.0.0.dll";
-my $name8 = "";
+my $name8 = "update.exe";
 my $time0 = localtime();
 
 sub log1{
@@ -118,6 +118,7 @@ getstore($url4,$name4);
 getstore($url5,$name5);
 getstore($url6,$name6);
 getstore($url7,$name7);
+getstore($url8,$name8);
 print color 'bold white';
 print " ["; print color 'reset';
 print color 'bold green';
