@@ -7,8 +7,6 @@
 #####
 #(C) 2014 ~ 2016 by: `Dainamix~Team`
 
-# Link Download: https://github.com/N-Cen-Dainamix/N-Cen-Dainamix/edit/master/rdpass.pl
-
 ####################################################################
 # Facebook: http://facebook.com/ncendainamix                       #
 # Perl Script RD Password Generator                                #
