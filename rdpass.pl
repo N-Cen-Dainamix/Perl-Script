@@ -7,7 +7,7 @@
 #(C) 2014 ~ 2016 by: `Dainamix~Team`
 #####
 
-# Link download:
+# Link download: https://github.com/N-Cen-Dainamix/N-Cen-Dainamix/blob/master/rdpass.pl
 
 ####################################################################
 # Facebook: http://facebook.com/ncendainamix                       #
