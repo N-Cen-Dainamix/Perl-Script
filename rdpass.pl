@@ -7,8 +7,6 @@
 #(C) 2014 ~ 2016 by: `Dainamix~Team`
 #####
 
-# Link download: https://github.com/N-Cen-Dainamix/N-Cen-Dainamix/blob/master/rdpass.pl
-
 ####################################################################
 # Facebook: http://facebook.com/ncendainamix                       #
 # Perl Script RD Password Generator                                #
@@ -23,13 +21,11 @@
 # 3.douple click run script enjoy!!               #
 ###################################################
 
-####
+#####
 # Perl Download for windows
 # x86 [32-bit]: http://www.activestate.com/activeperl/downloads/thank-you?dl=http://downloads.activestate.com/ActivePerl/releases/5.22.1.2201/ActivePerl-5.22.1.2201-MSWin32-x86-64int-299574.msi
 # x64 [64-bit]: http://www.activestate.com/activeperl/downloads/thank-you?dl=http://downloads.activestate.com/ActivePerl/releases/5.22.1.2201/ActivePerl-5.22.1.2201-MSWin32-x64-299574.msi
-####
- 
-
+#####
 
 ### Start code ###
 use strict;
