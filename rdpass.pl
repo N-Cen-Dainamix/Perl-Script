@@ -4,8 +4,10 @@
 # RD Password Generator
 # Version: 2.9
 # Credit by: N-Cen-Dainamix
-#(C) 2014 ~ 2016 by: `Dainamix~Team`
 #####
+#(C) 2014 ~ 2016 by: `Dainamix~Team`
+
+# Link Download: https://github.com/N-Cen-Dainamix/N-Cen-Dainamix/edit/master/rdpass.pl
 
 ####################################################################
 # Facebook: http://facebook.com/ncendainamix                       #
@@ -72,7 +74,7 @@ print $make_logo "# RD Password Generator\n";
 print $make_logo "# Version: 2.9\n";
 print $make_logo "# Credit by: N-Cen-Dainamix\n";
 print $make_logo "#####\n";
-print $make_logo "(C) 2016 by: `Dainamix~Team`\n";
+print $make_logo "(C) 2014 ~ 2016 by: `Dainamix~Team`\n";
 print $make_logo "-- Make: [$list/id]\n";
 print $make_logo "-- Starting at: [$r_day[$mday]/$r_mon[$mon]/$year $r_hour[$hour]:$r_sec[$min]:$r_sec[$sec]]\n\n";
 close($make_logo);
@@ -115,7 +117,7 @@ print $make_logo "# RD Password Generator\n";
 print $make_logo "# Version: 2.9\n";
 print $make_logo "# Credit by: N-Cen-Dainamix\n";
 print $make_logo "#####\n";
-print $make_logo "(C) 2016 by: `Dainamix~Team`\n";
+print $make_logo "(C) 2014 ~ 2016 by: `Dainamix~Team`\n";
 print $make_logo "-- Make: [$list/id]\n";
 print $make_logo "-- Starting at: [$r_day[$mday]/$r_mon[$mon]/$year $r_hour[$hour]:$r_sec[$min]:$r_sec[$sec]]\n\n";
 close($make_logo);
@@ -158,7 +160,7 @@ print $make_logo "# RD Password Generator\n";
 print $make_logo "# Version: 2.9\n";
 print $make_logo "# Credit by: N-Cen-Dainamix\n";
 print $make_logo "#####\n";
-print $make_logo "(C) 2016 by: `Dainamix~Team`\n";
+print $make_logo "(C) 2014 ~ 2016 by: `Dainamix~Team`\n";
 print $make_logo "-- Make: [$list/id]\n";
 print $make_logo "-- Starting at: [$r_day[$mday]/$r_mon[$mon]/$year $r_hour[$hour]:$r_sec[$min]:$r_sec[$sec]]\n\n";
 close($make_logo);
@@ -223,17 +225,6 @@ print $make "pass: $random_pass\n";
 }
 print color 'bold red'; 
 print "\n End .. \n";        
-}
-
-sub _make_logo{
-open my $make_logo, ">", "$file";
-print $make_logo "#####\n";
-print $make_logo "# RD Password Generator\n";
-print $make_logo "# Version: 2.9\n";
-print $make_logo "# Credit by: N-Cen-Dainamix\n";
-print $make_logo "#####";
-print $make_logo "(C) 2016 by: `Dainamix~Team`\n\n";
-close($make_logo);
 }
 
 sub _options{
