@@ -227,10 +227,10 @@ print "\n End .. \n";
 
 sub _options{
 print color 'bold green'; print "\n---> "; print color 'bold white'; print "List number random RD Password Generator "; print color 'bold green'; print "<---\n\n";    
-print color 'bold white'; print "["; print color 'bold magenta'; print "1"; print color 'bold white'; print "] Ramdom id password [id: abcd] [pass: abcd]\n";
-print color 'bold white'; print "["; print color 'bold magenta'; print "2"; print color 'bold white'; print "] Ramdom id password [id: abcd] [pass: 1234]\n";
-print color 'bold white'; print "["; print color 'bold magenta'; print "3"; print color 'bold white'; print "] Ramdom id password [id: 1234] [pass: 1234]\n";
-print color 'bold white'; print "["; print color 'bold magenta'; print "4"; print color 'bold white'; print "] Ramdom id password [ab12] unlimited\n";    
+print color 'bold white'; print "["; print color 'bold magenta'; print "1"; print color 'bold white'; print "] Random id password [id: abcd] [pass: abcd]\n";
+print color 'bold white'; print "["; print color 'bold magenta'; print "2"; print color 'bold white'; print "] Random id password [id: abcd] [pass: 1234]\n";
+print color 'bold white'; print "["; print color 'bold magenta'; print "3"; print color 'bold white'; print "] Random id password [id: 1234] [pass: 1234]\n";
+print color 'bold white'; print "["; print color 'bold magenta'; print "4"; print color 'bold white'; print "] Random id password [ab12] unlimited\n";    
 }
 
 sub _banner{
