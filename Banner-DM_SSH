@@ -4,9 +4,3 @@ echo " )(_) )/(__)\  _)(_  )  (  /(__)\  )    (  _)(_  )  ( ";
 echo "(____/(__)(__)(____)(_)\_)(__)(__)(_/\/\_)(____)(_/\_)";
 echo "Welcome to Dainamix SSH Server";
 echo "";
-echo "Host: $host $osname";
-echo "IP: $p_ipv4"
-echo "IPV4: $ipv4";
-echo "Edited by: N-Cen-Dainamix";
-echo "Contact: facebook.com/ncendainamix";
-echo "File transfer on port: download:4444,upload:8888";
