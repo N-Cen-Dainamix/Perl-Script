@@ -8,7 +8,7 @@
 #  version:   1.3.0
 # -----------------------------------------------------------------------------
 # Requirements:
-# Python, ffmpeg, cURL, youtube-dl
+# Perl, Python, ffmpeg, cURL, youtube-dl
 # Description:
 # Youtube Automatic Converter Downloader 
 # -----------------------------------------------------------------------------
